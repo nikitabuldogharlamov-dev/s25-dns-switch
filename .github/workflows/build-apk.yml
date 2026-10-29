@@ -15,10 +15,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -q DNS_Switch_1_3_FINAL_for_Samsung_S25.zip
+        run: unzip -q DNS_Switch_2_0_SOURCE.zip
 
-      - name: Customize Power button for DNS Switch 1.6
-        run: python3 scripts/patch_power_button_v1_6.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
