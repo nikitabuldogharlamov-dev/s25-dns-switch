@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Extract project
-        run: unzip -q DNS_Switch_1_2_SOURCE_NEW.zip && rm -rf S25-DNS-Switch/gradle/wrapper
+      - name: Extract 
+       run: unzip -q DNS_Switch_1_3_FINAL_for_Samsung_S25.zip && rm -rf S25-DNS-Switch/gradle/uses
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
