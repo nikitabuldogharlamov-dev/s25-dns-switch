@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -q S25-DNS-Switch-GitHub.zip && rm -rf S25-DNS-Switch/gradle/wrapper
+        run: unzip -q DNS_Switch_1_2_SOURCE_NEW.zip && rm -rf S25-DNS-Switch/gradle/wrapper
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
